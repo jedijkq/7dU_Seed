@@ -6,10 +6,10 @@ authors:
     given-names: Jed
   - family-names: GPT
     given-names: Sancho
-date-released: 2025-11-07
-version: "1.0.0"
-doi: ""
-url: "https://www.geometricfoundations.org/pi-eigenvalue/"
+doi: 10.5281/zenodo.17548688
+url: https://doi.org/10.5281/zenodo.17548688
+version: 1.0.1
+date-released: 2025-11-06
 repository-code: "https://github.com/geometricfoundations/pi-eigenvalue"
 abstract: >
   Datasets, algorithm pseudocode, and verification hashes supporting
