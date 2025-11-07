@@ -12,3 +12,14 @@ This archive contains the primary data and pseudocode supporting the paper:
 All CSVs share the schema: α, ξ, σ, λ̃₁, λ₁^(phys), Δ, status
 
 Software environment: Python 3.12 + NumPy 1.26 + SciPy 1.13 (ARPACK)
+
+## Provenance & Verification
+
+All supplementary files in this directory were archived and hashed on November 6, 2025.  
+Verification hashes are recorded in `sha256_manifest.txt`.
+
+Users may verify file integrity via:
+
+    sha256sum -c sha256_manifest.txt
+
+If all entries report “OK”, the dataset and pseudocode are verified as authentic and unmodified.
