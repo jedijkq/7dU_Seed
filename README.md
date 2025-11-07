@@ -7,6 +7,10 @@ This repository contains the primary datasets, algorithms, and documentation sup
 
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17548688.svg)](https://doi.org/10.5281/zenodo.17548688)
+
+---
+
 ## 📂 Files Included
 
 | File | Description |
@@ -86,13 +90,16 @@ https://github.com/jedijkq/7dU_Seed￼ (branch pi-eigenvalue)
 
 ⸻
 
-🔖 DOI & Version Tag
+🔖 **DOI & Version Tag**
 
-Once archived via Zenodo, this branch will receive a DOI identifier:
+This release is permanently archived and citable via Zenodo:
 
-DOI: 10.5281/zenodo.xxxxxxx
+**DOI:** [10.5281/zenodo.17548688](https://doi.org/10.5281/zenodo.17548688)  
+**Current release tag:** `v1.0.1-pi-eigenvalue`
 
-Current release tag → v1.0_pi-eigenvalue_preprint
+For citation purposes, please use:
+
+> Kircher, J., & Sancho GPT. (2025). *π as an Emergent Eigenvalue — Supplementary Materials (Version 1.0.1)*. Zenodo. [https://doi.org/10.5281/zenodo.17548688](https://doi.org/10.5281/zenodo.17548688)
 
 ⸻
 
