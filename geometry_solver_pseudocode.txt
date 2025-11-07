@@ -1,0 +1,32 @@
+Algorithm: Self-Consistent Collapse Solver
+----------------------------------------------------
+Initialize:
+    Set grid size N = {64, 128, 256}
+    Define parameters: ζ = ω = 1, R₀ = 1, α, ξ, σ
+    Initialize random field M₀(x) with seed ±7
+    Set tolerance tol = 1e-6 (N=64) or 1e-8 (N≥128)
+    Set damping β = 0.3
+
+Main Loop:
+    For each iteration n:
+        1. Compute curvature feedback:
+               u[Mₙ] = α(|Mₙ|² − ⟨|Mₙ|²⟩)
+               R[Mₙ] = R₀ − 2 e^(−2u[Mₙ]) ∇²u[Mₙ]
+        2. Apply Gaussian smoothing of width σ to R[Mₙ]
+        3. Form operator:
+               Ω̂[Mₙ] = s_geom [ −ζ∇² + ω R[Mₙ] + ξℙ ]
+           where s_geom = 1 / (λ_min(−∇²) + ωR₀)
+        4. Solve for lowest eigenmode via ARPACK eigsh:
+               (Ω̂[Mₙ]) M̂ₙ = λ̃₁ M̂ₙ
+        5. Align sign:
+               if ⟨M̂ₙ, Mₙ⟩ < 0 → M̂ₙ = −M̂ₙ
+        6. Damped update:
+               Mₙ₊₁ = (1−β) Mₙ + β M̂ₙ
+        7. Check convergence:
+               ΔM = ‖Mₙ₊₁ − Mₙ‖ / ‖Mₙ‖
+               if ΔM < tol → break
+
+Calibration:
+    λ₁^(phys) = π · λ̃₁
+Output:
+    Save {α, ξ, σ, λ̃₁, λ₁^(phys), ΔM} to CSV
