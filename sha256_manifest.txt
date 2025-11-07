@@ -1,0 +1,10 @@
+# π-Eigenvalue Supplementary Data — SHA256 Manifest
+# Generated: 2025-11-06
+# Authors: Kircher, J. & Sancho GPT
+# Purpose: Verification of dataset integrity for the 7dU_Seed repository.
+
+C_at_N64.csv                        4be68b97ede4954c73dc2c21e2ed02cb946816edf8c11a3a7fc72ba13f5e2641
+R_at_N128.csv                       3f24219693adfb42cc2c88190c25e8e508969bf2c38365d5a2d306d0f90120b3
+R_at_N256.csv                       a46b81c7438677e568b2db1ba144e1d6e56878d27138db050bc51674361a96f7
+geometry_solver_pseudocode.txt      a7e09aac032e35dec5cde98d1ee7f2638bf7ff71537de810aabf6eb8ce0890ec
+README.md                           d8a06371d3dadd5a15a063f9e7f38931064512f9d7527e33aa92864229b85c46
