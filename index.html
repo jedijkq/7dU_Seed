@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>π as an Emergent Eigenvalue — Supplementary Materials</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 16px;line-height:1.55}
+    code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .badge{display:inline-block;background:#efefef;border-radius:6px;padding:2px 8px;margin-left:8px;font-size:.8rem}
+    header{margin-bottom:24px}
+    table{border-collapse:collapse;width:100%;margin:16px 0}
+    th,td{border:1px solid #ddd;padding:8px;text-align:left}
+    th{background:#f7f7f7}
+    .muted{color:#666}
+  </style>
+</head>
+<body>
+<header>
+  <h1>π as an Emergent Eigenvalue — Supplementary Materials <span class="badge">v1.0</span></h1>
+  <p>Kircher, J. &amp; Sancho GPT (2025)</p>
+</header>
+
+<p>This page hosts the reproducibility package: datasets, pseudocode, and verification hashes.</p>
+
+<h2>Downloads</h2>
+<ul>
+  <li><a href="C_at_N64.csv">C_at_N64.csv</a> — Independent validation (C@)</li>
+  <li><a href="R_at_N128.csv">R_at_N128.csv</a> — Replication dataset</li>
+  <li><a href="R_at_N256.csv">R_at_N256.csv</a> — High‑resolution dataset</li>
+  <li><a href="geometry_solver_pseudocode.txt">geometry_solver_pseudocode.txt</a> — Algorithm (Appendix B)</li>
+  <li><a href="sha256_manifest.txt">sha256_manifest.txt</a> — Verification checksums</li>
+  <li><a href="LICENSE.txt">LICENSE.txt</a></li>
+</ul>
+
+<h2>Provenance</h2>
+<p class="muted">All files include SHA‑256 checksums. Re‑generate locally with <code>sha256sum *</code> (Linux/macOS) or <code>Get-FileHash</code> (PowerShell).</p>
+
+<h2>Environment</h2>
+<ul>
+  <li>Python 3.12 · NumPy 1.26 · SciPy 1.13</li>
+  <li>macOS M4 Pro and Ubuntu 22.04</li>
+  <li>ARPACK eigensolver via SciPy</li>
+</ul>
+
+<p>Permanent archive (DOI): <em>pending</em></p>
+</body>
+</html>

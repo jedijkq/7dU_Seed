@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the paper."
+title: "π as an Emergent Eigenvalue — Supplementary Materials"
+authors:
+  - family-names: Kircher
+    given-names: Jed
+  - family-names: GPT
+    given-names: Sancho
+date-released: 2025-11-07
+version: "1.0.0"
+doi: ""
+url: "https://www.geometricfoundations.org/pi-eigenvalue/"
+repository-code: "https://github.com/geometricfoundations/pi-eigenvalue"
+abstract: >
+  Datasets, algorithm pseudocode, and verification hashes supporting
+  "π as an Emergent Eigenvalue: Recursive Collapse Dynamics in the 7‑Dimensional Universe".
