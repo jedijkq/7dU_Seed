@@ -11,3 +11,11 @@ The numerical datasets, solvers, and SHA256 manifests supporting
 the π eigenvalue derivation are available here:
 
 ➡️ https://github.com/jedijkq/7dU_Seed/tree/pi-eigenvalue
+
+## 137 Supplementary Materials
+
+The numerical datasets, solvers, and SHA256 manifests supporting  
+the π eigenvalue derivation are available here:
+
+
+➡️ https://github.com/jedijkq/7dU_Seed/tree/AoC-137-supplementary
