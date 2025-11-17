@@ -1,21 +1,52 @@
-## Seed Papers (AoC)
+# AoC-137 Supplementary Materials
 
-See the `/papers` folder for:
+This directory contains all reproducible materials supporting:
 
-- [AoC_Dev_Pi_1.0.pdf](papers/AoC_Dev_Pi_1.0.pdf)
-- [AoC_Dev_137_1.0.pdf](papers/AoC_Dev_137_1.0.pdf)
+**AoC_Dev_137_1.0.pdf**  
+*Deriving α ≈ 1/137 from a Stable Geometric Fixed Point*
 
-## π Supplementary Materials
+---
 
-The numerical datasets, solvers, and SHA256 manifests supporting  
-the π eigenvalue derivation are available here:
+## Included Materials
 
-➡️ https://github.com/jedijkq/7dU_Seed/tree/pi-eigenvalue
+### 🔢 Numerical Data  
+- `alpha_137_numerics.json` — locked numerical outputs  
+- `locks.json` — canonical parameter lockfile  
+- `hash_manifest.txt` (optional) — SHA256 integrity record  
 
-## 137 Supplementary Materials
+### 🧮 Reproducibility Scripts  
+- `verify_alpha_locks.py` — full bit-for-bit verification  
+- `generate_137_figures.py` — regenerates Figures 1–3  
+- `AoC_137_Workbook.ipynb` — Google Colab-compatible notebook  
 
-The numerical datasets, solvers, and SHA256 manifests supporting  
-the π eigenvalue derivation are available here:
+### 📊 Figures  
+- `figure1_hybrid.png`  
+- `figure2_hybrid.png`  
+- `figure3_hybrid.png`  
+- `alpha_complete_analysis.png`  
+- `alpha_derivation_landscape.png`  
 
+### 🧪 Environment  
+- `environment.yml` — exact solver environment  
 
-➡️ https://github.com/jedijkq/7dU_Seed/tree/AoC-137-supplementary
+### 📚 Citation  
+- `CITATION.cff` — interoperable citation metadata  
+
+---
+
+## Usage
+
+Run the verification:
+python verify_alpha_locks.py
+Regenerate all published figures:
+
+python generate_137_figures.py
+Open the notebook (local or Colab):
+
+AoC_137_Workbook.ipynb
+---
+
+## Repository Link  
+Main paper is located in:
+
+➡️ `/papers/AoC_Dev_137_1.0.pdf`
