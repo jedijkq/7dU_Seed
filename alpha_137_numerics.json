@@ -1,0 +1,49 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16960\viewh13220\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "_metadata": \{\
+    "description": "Numerical outputs for \uc0\u945  \u8776  1/137 geometric fixed-point derivation",\
+    "generated_by": "verify_alpha_locks.py",\
+    "precision_digits": 80,\
+    "date": "2025-11-17"\
+  \},\
+\
+  "alpha_pred": \{\
+    "value": 0.0073000821,\
+    "inverse": 136.9848\
+  \},\
+\
+  "alpha_exp": \{\
+    "value": 0.0072973526,\
+    "inverse": 137.0360\
+  \},\
+\
+  "alpha_err": \{\
+    "value": 2.73e-6,\
+    "relative_ppm": 374.0\
+  \},\
+\
+  "flow_derivatives": \{\
+    "g_star": 0.30348,\
+    "beta_prime_g": -0.01723,\
+    "beta_prime_alpha": -0.00274289\
+  \},\
+\
+  "xi_star": 0.00478905,\
+\
+  "drift_bounds": \{\
+    "delta_alpha_max": 2.7296005118e-6,\
+    "residual": 1.01e-10\
+  \},\
+\
+  "stability": \{\
+    "E_xi": 0.247,\
+    "threshold": 5.5,\
+    "safety_margin_percent": 95.5\
+  \}\
+\}}
