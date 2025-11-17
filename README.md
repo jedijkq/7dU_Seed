@@ -49,4 +49,4 @@ AoC_137_Workbook.ipynb
 ## Repository Link  
 Main paper is located in:
 
-➡️ `/papers/AoC_Dev_137_1.0.pdf`
+➡️ (https://github.com/jedijkq/7dU_Seed/blob/main/papers/AoC_Dev_137_1.0.pdf)
