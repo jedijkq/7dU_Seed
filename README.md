@@ -50,17 +50,21 @@ This directory contains all reproducible materials supporting the paper:
 ### 1. Verify all numerical values
 ```bash
 python verify_alpha_locks.py
+```
 
 ### 2. Regenerate all published figures
 ```bash
 python generate_137_figures.py
+```
 
-### 2. Regenerate all published figures
-``bash
+### 3. Open the interactive workbook (optional)
+```bash
 AoC_137_Workbook.ipynb
+```
 
-Repository Link to Main Paper
-
+Repository Link to Main Paper  
 https://github.com/jedijkq/7dU_Seed/blob/main/papers/AoC_Dev_137_1.0.pdf
 
 This folder contains everything needed for full reproducibility of the α ≈ 1/137 result.
+
+
